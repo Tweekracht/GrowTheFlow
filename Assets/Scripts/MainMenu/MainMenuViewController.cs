@@ -34,6 +34,8 @@ public class MainMenuViewController : MonoBehaviour
     private GameObject currentPage;
     [SerializeField] private ViewType viewTypeAfterStart;
     private bool isPhone;
+    [SerializeField] private VideoClip MainVideo;
+    [SerializeField] private VideoClip SettingsVideo;
 
     private void Awake()
     {
@@ -128,25 +130,40 @@ public class MainMenuViewController : MonoBehaviour
                     if (isPhone)
                     {
                         actualBackgroundVideo = settingsBackgroundPhones;
+                        actualBackgroundVideo.clip = SettingsVideo;
+                        
                     }
                     else
                     {
                         actualBackgroundVideo = settingsBackgroundTablets;
+                        actualBackgroundVideo.clip = SettingsVideo;
+                        
                     }
                 }
                 else  if (page.GetComponent<PageTypeController>().GetPageType() == PageType.MAIN)
                 {
+                    if (actualBackgroundVideo.clip = SettingsVideo){
+                        actualBackgroundVideo.clip = MainVideo;
+                    }
+
                     if (isPhone)
                     {
                         actualBackgroundVideo = mainMenuBackgroundPhones;
+                        
+
                     }
                     else
                     {
                         actualBackgroundVideo = mainMenuBackgroundTablets;
                     }
                 }
+
                 else  if (page.GetComponent<PageTypeController>().GetPageType() == PageType.PROFILE)
                 {
+                    if (actualBackgroundVideo.clip = SettingsVideo){
+                        actualBackgroundVideo.clip = MainVideo;
+                    }
+
                     if (isPhone)
                     {
                         actualBackgroundVideo = profileBackgroundPhones;
@@ -158,6 +175,10 @@ public class MainMenuViewController : MonoBehaviour
                 }
                 else  if (page.GetComponent<PageTypeController>().GetPageType() == PageType.PLAY)
                 {
+                    if (actualBackgroundVideo.clip = SettingsVideo){
+                        actualBackgroundVideo.clip = MainVideo;
+                    }
+
                     if (isPhone)
                     {
                         actualBackgroundVideo = playBackgroundPhones;
