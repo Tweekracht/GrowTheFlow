@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/[0] Homescreen.unity
+    guid: adc9a4f08ef8a114b8ec4d3ff597e30d
+  - enabled: 0
+    path: Assets/Scenes/[1] Zacht - Hard.unity
+    guid: ec3d0ddb888e5f448ba86e8a4520b03a
+  - enabled: 0
+    path: Assets/Scenes/[2] 4 - 4 OS - AB.unity
+    guid: 06d91593bc84a364ba42ef879ed65a48
+  - enabled: 0
+    path: Assets/Scenes/[3] 2 -2 WG - VER.unity
+    guid: 00d5d2bae67e0174087f63eab0bb9db8
+  - enabled: 0
+    path: Assets/Scenes/[4] 2 -2 VG - MU.unity
+    guid: c55d121ac78689a40ad923f28854b773
+  - enabled: 0
+    path: Assets/Scenes/[5] 1 - 1 H - M.unity
+    guid: 06689abe4ff01bc48978e239b1d654bf
+  - enabled: 0
+    path: Assets/Scenes/[6] 1 - 1 N - S.unity
+    guid: ff0f54323b129fe4cbe05d1d36ccb376
+  - enabled: 0
+    path: Assets/Scenes/[7] 1 - 1 V - D.unity
+    guid: cb9e3befd27faa041a8f88a37f7f0699
+  - enabled: 0
+    path: Assets/Scenes/[8] 1 - 1 Z - K.unity
+    guid: 259bbe4d826431148838190624015ce0
+  - enabled: 0
+    path: Assets/Scenes/Uitslagen/[9] Uitslag Helpen 1.unity
+    guid: b22e30e56a2410c4297bb22979e9009c
+  - enabled: 0
+    path: Assets/Scenes/Uitslagen/[10] Uitslag Meevoelen 1.unity
+    guid: 16d113e88ece1874d8b28d755f2b7786
+  - enabled: 0
+    path: Assets/Scenes/Uitslagen/[11] Uitslag Nieuwsgierig 1.unity
+    guid: b4b9230e74febe444952f1d6c1b42258
+  - enabled: 0
+    path: Assets/Scenes/Uitslagen/[12] Uitslag Spelen 1.unity
+    guid: 247df837f547a944fb5bf6b3ffc81d11
+  - enabled: 0
+    path: Assets/Scenes/Uitslagen/[13] Uitslag Vooruitstrevend 1.unity
+    guid: 82159aa93731948468f6db5c8845a6f3
+  - enabled: 0
+    path: Assets/Scenes/Uitslagen/[14] Uitslag Doorzetten 1.unity
+    guid: bd0938116fc46aa46903dff068e9d350
+  - enabled: 0
+    path: Assets/Scenes/Uitslagen/[15] Uitslag Het moet zin hebben 1.unity
+    guid: e00d4b3804d6bd14398265d59da3db1d
+  - enabled: 0
+    path: Assets/Scenes/Uitslagen/[16] Uitslag Het moet kloppen.unity
+    guid: 6b022feef5ac2c444a95f6899a9bf8ae
+  - enabled: 0
+    path: Assets/Scenes/[17] Tests.unity
+    guid: 435740fa5d43adc4586d1e589f00bc8d
+  - enabled: 0
+    path: Assets/Scenes/[18] Prototypes.unity
+    guid: 6e8e41c210fc0d241a5347441e9ad2e7
+  - enabled: 0
+    path: Assets/Scenes/[19] Video Scene.unity
+    guid: d30d1984e08d5284f9712916ad7fb5b7
+  - enabled: 0
+    path: Assets/Scenes/[20] Tinder Experience.unity
+    guid: 38567bbd602bd1547ae5a13234b4cc77
+  - enabled: 1
+    path: Assets/Scenes/[21] Official Energy Game.unity
+    guid: 7a93ff8fadf712a4ba1578eb97b0c3cd
+  m_configObjects: {}
