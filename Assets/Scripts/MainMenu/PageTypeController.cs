@@ -17,5 +17,6 @@ public enum PageType
     MAIN,
     SETTINGS,
     PLAY,
+    GAME,
     PROFILE
 }
